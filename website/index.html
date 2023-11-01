@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #search-box{
+      border: 0px;
+      height:100%;
+      width: 100%;
+      background:none;
+      padding: 1rem;
+      background:none;
+      text-transform: none;
+      font-size: 2rem;
+      padding: 1rem;
+      background: #fff;
+    }
+    .fa fa-search
+    {
+     cursor: pointer;
+    }
+    #1
+    {
+      size: 4rem;
+    }
+  </style>
+    <title>
+      SHOPING MART
+    </title>
+    <!-- CODE FOR FONT AEWSOME cdn -->
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CODE FOR FONT AEWSOME cdn -->
+
+    <!-- CODE FOR LINKING STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- header section for page-->
+  <header class="header">
+    <a href="#" class="logo"> <i class="fa fa-shopping-basket" aria-hidden="true"> </i>SHOPING MART</a>
+    <!-- nav bar-->
+   <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#blogs">Blogs</a>
+   </nav>
+
+   <div class="icons"><!-- icons...-->
+    <div class="fa fa-bars" id="menu-btn"></div>
+    <div class="fa fa-search" id="search-btn"></div>
+    <div class="fa fa-shopping-cart" id="cart"></div>
+    <div class="fa fa-user" id="login-btn"></div>
+   </div>
+   <form class="search-form" id="b"> 
+    <input type="search" id="search-box" placeholder="Search here....">  
+    <label for="search-box" class="fa fa-search"></label>
+   </form>
+   <div class="shopping-cart"><!-- SHOPING CART...-->
+    <div class="box">
+      <img src="image/cart-img-1.jpg" id="1">
+     <div class="content"><!-- paracetamol-->
+       <i class="fa-trash"></i>
+       <h3>Paracetamol</h3>
+       <span class="price">Nrs.100/-</span>
+       <span class="quantity">Qty : 1</span>
+     </div>
+     </div>
+     <div class="box"><!-- shoes-->
+      <img src="image/cart-img-2.jpg">
+     <div class="content">
+      <i class="fa-trash"></i>
+      <h3>AIR shoes</h3>
+      <span class="price">Nrs.120000/-/-</span>
+      <span class="quantity">Qty : 1</span>
+     </div>
+     </div>
+
+
+     <div class="box"><!-- shoes-->
+      <img src="image/cart-img-3.jpg">
+     <div class="content">
+      <i class="fa-trash"></i>
+      <h3>Watermelon</h3>
+      <span class="price">Nrs.99.99/-/-</span>
+      <span class="quantity">Qty : 1</span>
+    </div>
+    </div>
+    
+
+
+    <div class="total">total : 120199.99/-</div><!-- total -->
+
+    
+    <div class="btn">Check Out</div>
+   </div>
+    <script src="js/script.js"></script>
+  </header>
+</body>
+</html>
+
